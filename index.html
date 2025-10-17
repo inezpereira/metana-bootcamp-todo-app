@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="welcome">
+                <div class="logo"></div>
+                <div class="user-info">
+                    <h1>Welcome</h1>
+                    <p>Guest</p>
+                </div>
+            </div>
+            <div class="mood-controls">
+                <span>Mood: 😐</span>
+                <button class="btn">🌙</button>
+                <button class="btn">🔔</button>
+                <button class="btn">👤</button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <section class="tasks-section">
+                <div class="section-header">
+                    <div>
+                        <h2 class="section-title">Ready for Today?</h2>
+                        <p class="section-subtitle">You have 3 tasks planned for today</p>
+                    </div>
+                    <div class="controls">
+                        <button class="btn">+ Add Task</button>
+                        <button class="btn btn-accent">Complete All</button>
+                        <button class="btn">Show Completed</button>
+                    </div>
+                </div>
+                <div class="task-list">
+                    <div class="task">
+                        <div class="task-info">
+                            <h3>Run!</h3>
+                            <p>4 mins</p>
+                        </div>
+                        <div class="task-time">1:21 PM</div>
+                        <div class="checkbox">✓</div>
+                    </div>
+                    <div class="task">
+                        <div class="task-info">
+                            <h3>Don't Run</h3>
+                            <p>34 mins</p>
+                        </div>
+                        <div class="task-time">12:34 AM</div>
+                        <div class="checkbox">✓</div>
+                    </div>
+                    <div class="task">
+                        <div class="task-info">
+                            <h3>Bake Brownies</h3>
+                            <p>809 mins</p>
+                        </div>
+                        <div class="task-time">12:09 PM</div>
+                        <div class="checkbox">✓</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="suggested-section">
+                <h2 class="section-title">Suggested tasks</h2>
+                <div class="task-list">
+                    <div class="suggested-task">
+                        <div class="suggested-task-info">
+                            <h3>Read a Book</h3>
+                            <p class="suggested-task-time">45 mins</p>
+                            <p class="suggested-task-time">12:43 PM</p>
+                        </div>
+                        <div>
+                            <p class="suggested-task-reason">Based on</p>
+                            <p class="suggested-task-reason">Mood</p>
+                        </div>
+                        <div class="checkbox">✓</div>
+                    </div>
+                    <div class="suggested-task">
+                        <div class="suggested-task-info">
+                            <h3>Meditation</h3>
+                            <p class="suggested-task-time">15 mins</p>
+                            <p class="suggested-task-time">12:43 PM</p>
+                        </div>
+                        <div>
+                            <p class="suggested-task-reason">Based on</p>
+                            <p class="suggested-task-reason">Weather - Mostly Cloudy</p>
+                        </div>
+                        <div class="checkbox">✓</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
