@@ -1,0 +1,82 @@
+/* General Page Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0c0f17;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 1rem;
+}
+
+/* Login Box */
+.login-container {
+  background-color: #1b1e27;
+  border-radius: 12px;
+  padding: 5rem;
+  width: 100%;
+  max-width: 380px;
+}
+
+/* Header */
+.login-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-header h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.login-header p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 1.25rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #262a35;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.input-group input::placeholder {
+  color: #888;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  background-color: #b7ff1a;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #d7ff5a;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .login-container {
+    width: 90%;
+    padding: 1.5rem;
+  }
+}
