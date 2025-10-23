@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Selector</title>
+    <link rel="stylesheet" href="../Styles/moodSelector.css">
+</head>
+<body>
+    <div class="mood-selector-container">
+        <h1>Mood Selector</h1>
+        <form class="mood-form">
+            <div class="mood-question">
+                <label>How are you feeling?</label>
+            </div>
+            <div class="mood-options">
+                <button type="button" class="mood-btn" data-mood="sad">😞</button>
+                <button type="button" class="mood-btn" data-mood="neutral">😐</button>
+                <button type="button" class="mood-btn" data-mood="happy">😊</button>
+            </div>
+            <input type="range" class="mood-slider" min="0" max="100" value="50">
+        </form>
+    </div>
+</body>
+</html>

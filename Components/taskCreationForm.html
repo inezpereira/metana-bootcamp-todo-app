@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for Creating a Task</title>
+    <link rel="stylesheet" href="../Styles/taskCreationForm.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Add a new task</h1>
+        <form class="task-form">
+            <div class="form-group">
+                <label for="task-title">Task Name</label>
+                <input type="text" id="task-title" name="task-title" placeholder="Enter task title">
+            </div>
+            <div class="form-group">
+                <label for="task-description">Task Description</label>
+                <textarea id="task-description" name="task-description" placeholder="Enter task description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="due-date">Due Date</label>
+                <input type="date" id="due-date" name="due-date">
+            </div>
+            <button type="submit" class="add-task-btn">Add Task</button>
+        </form>
+    </div>
+</body>
+</html>
